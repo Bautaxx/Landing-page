@@ -1,6 +1,19 @@
 .top{
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1f2937;
+    color:white;
 }
-.headers{
-
+.top h3{
+    background-color: aqua;
+    flex: 50%;
+    text-align: center;
 }
+.top .right-header{
+    background-color: blanchedalmond;
+    flex: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}   
