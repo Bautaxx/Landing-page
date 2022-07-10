@@ -103,3 +103,11 @@ body{
     height: 20px;
     padding-right: 30px;
 }
+/*Footer section*/
+footer{
+    background-color: #1f2937;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
