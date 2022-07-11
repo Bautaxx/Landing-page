@@ -86,23 +86,23 @@ body{
     align-items: center;
 }
 .cta .blue-rectangle{
-    background-color: lightblue;
+    background-color:#3882f6;
     height: 140px;
     width: 80%;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     gap: 20px;
+    align-items: center;
 }
 .cta .blue-rectangle .text{
     flex: 2;
     padding-left: 30px ;
-    padding-bottom: 30px;
 }
-.cta .blue-rectangle button{
+.cta .blue-rectangle .button-config{
     flex:1;
-    height: 20px;
-    padding-right: 30px;
+    height: 40px;
+    padding-left: 10%;
 }
 /*Footer section*/
 footer{
