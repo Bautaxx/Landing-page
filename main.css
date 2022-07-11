@@ -35,13 +35,20 @@ body{
 }
 .presentation .box-1{
     flex: 1;
+    padding-left: 10%;
 }
-.box-1 #text {
-    padding-left: 30%;
+.presentation .box-1 #button-1{
+    height: 30px;
+    width: 40%;
+    background-color:#3882f6;
+    color: white;
+    border-radius: 5px;
+    border-color: transparent;
 }
 .presentation .box-2{
-    flex: 1;
-    justify-content: flex-start;
+    flex: 1.5;
+    text-align: center;
+    padding-top: 100px;
     
 }
 /*Extra Information section*/
@@ -87,6 +94,7 @@ body{
 }
 .cta .blue-rectangle{
     background-color:#3882f6;
+    color: white;
     height: 140px;
     width: 80%;
     border-radius: 10px;
@@ -96,13 +104,22 @@ body{
     align-items: center;
 }
 .cta .blue-rectangle .text{
-    flex: 2;
+    flex: 3;
     padding-left: 30px ;
 }
 .cta .blue-rectangle .button-config{
-    flex:1;
+    flex:2;
     height: 40px;
-    padding-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+#button-2{
+    height: 30px;
+    width: 40%;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
 }
 /*Footer section*/
 footer{
